@@ -17,9 +17,11 @@ const Button: ForwardRefRenderFunction<HTMLButtonElement, ButtonProps> = (
     type = 'button',
     children,
   },
+  ref
 ) => {
   const renderButton = () => (
     <button
+      ref={ref}
       type={type}
       className={`button button-${variant} ${className}`}
       onClick={(e) => {
@@ -40,4 +42,4 @@ const Button: ForwardRefRenderFunction<HTMLButtonElement, ButtonProps> = (
   );
 };
 
-export default Button;
+export default forwardRef(Button);
