@@ -1,3 +1,4 @@
+import React from "react";
 import Bar from "@/assets/images/icon-bar.svg";
 import Search from "@/assets/images/icon-search.svg";
 import ArrowRight from "@/assets/images/icon-arrow-right.svg";
@@ -42,7 +43,7 @@ export const icons = [
     }
 ]
 
-const Icon = (props: IconProps): JSX.Element => {
+const Icon = (props: IconProps): React.ReactElement => {
     if (props.icon === undefined) return <></>;
     const filteredIcon = icons.filter((icon) => props.icon === icon.name);
   
