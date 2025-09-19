@@ -12,9 +12,9 @@ export default function BetterFeature() {
 
   const [curPos, setCurPos] = useState<number>(0);
 
-  const imageStartRef = useRef<HTMLDivElement | null>();
-  const animationRef = useRef<HTMLDivElement | null>();
-  const imageEndRef = useRef<HTMLDivElement | null>();
+  const imageStartRef = useRef<HTMLDivElement | null>(null);
+  const animationRef = useRef<HTMLDivElement | null>(null);
+  const imageEndRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     let imageCards = document.getElementsByClassName('home-feature-imagecards-item');
@@ -78,7 +78,7 @@ export default function BetterFeature() {
               <span className='home-feature-bargroup-second hidden lg:block'></span>
               <span className='home-feature-bargroup-third hidden lg:block'></span>
             </div>
-            <div className='px-2 py-12 mt-0 flex flex-col justify-around' ref={(el) => animationRef.current = el}>
+            <div className='px-2 py-12 mt-0 flex flex-col justify-around' ref={animationRef}>
               <div className="text-4xl md:text-5xl text-white font-bold">
                 BUILDING A BETTER FUTURE
               </div>
@@ -105,7 +105,7 @@ export default function BetterFeature() {
           </div>
         </div>
         <div className='w-full col-span-7 text-white pt-16'>
-          <div ref={(el) => { imageStartRef.current = el }}></div>
+          <div ref={imageStartRef}></div>
           <div className='home-feature-imagecards'>
             {
               imageCardsData.map((cardData, idx) => (
@@ -115,7 +115,7 @@ export default function BetterFeature() {
               ))
             }
           </div>
-          <div ref={(el) => { imageEndRef.current = el }}></div>
+          <div ref={imageEndRef}></div>
         </div>
       </div>
     </section>
