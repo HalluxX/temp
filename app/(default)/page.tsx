@@ -1,12 +1,13 @@
 export const metadata = {
-  title: 'Home - HomeMax Premier Era Innovations',
-  description: 'Page description',
+  title: 'HomeMax Premier Era Innovations | Seaford, Delaware | Electrical & Remodeling Services',
+  description: 'Leading electrical, remodeling, and generator installation services in Seaford, Delaware. Serving Sussex County and the Greater Delmarva Peninsula with expert craftsmanship and reliable service.',
 }
 
 import Hero from '@/components/ui/home/hero'
 import BetterFeature from '@/components/ui/home/better-feature'
 import Career from '@/components/ui/home/career'
 import News from '@/components/ui/home/news'
+import LocationMap from '@/components/ui/home/location-map'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <BetterFeature />
       {/* <Career /> */}
       <News />
+      <LocationMap />
     </>
   )
 }

@@ -87,6 +87,11 @@ const summarys: ISummaryItem[] = [
     ],
     link: '/locations'
   },
+  {
+    title: "BLOG",
+    contents: [],
+    link: '/blog'
+  },
   // {
   //   title: "CAREERS",
   //   contents: [
@@ -159,11 +164,11 @@ export default function Header() {
           </div>
         </div>
         {!!summaryPage &&
-          <div className='header-summary flex-1 grid md:grid-cols-2 xl:grid-cols-3 text-white px-5 py-5' >
+          <div className='header-summary flex-1 grid md:grid-cols-2 xl:grid-cols-4 text-white px-5 py-5' >
           {
             summarys.map((summaryItem, idx) => (
               <div key={idx} className='p-4 flex flex-row justify-between'>
-                <div className={`w-11/12 ${idx === 2 ? 'flex flex-col' : ''}`}>
+                <div className={`w-11/12 ${(idx === 2 || idx === 3) ? 'flex flex-col' : ''}`}>
                   <Link href={summaryItem.link}>
                     <div className='text-3xl font-bold mb-8 header-underline' onClick={() => {setSummaryPage(!summaryPage); onClickLink();}}>
                       {summaryItem.title}
@@ -189,7 +194,7 @@ export default function Header() {
                     </div> }
                   </div>
                 </div>
-                {idx < 2 ? <div className='header-bar w-11/12'></div> : <></>}
+                {idx < 3 ? <div className='header-bar w-11/12'></div> : <></>}
               </div>
             ))
           }

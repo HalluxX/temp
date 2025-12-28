@@ -8,13 +8,13 @@ export default function Footer() {
     <footer>
       <div className="footer">
         <div className="footer-body">
-          <div className="footer-container text-xl lg:grid-cols-6 lgx:grid-cols-3">
+          <div className="footer-container text-base lg:grid-cols-6 lgx:grid-cols-3">
             <div className="menu-item logo-menu">
               <a href="/">
                 <Image
                   src={imgLogo}
-                  width={230}
-                  height={230}
+                  width={180}
+                  height={180}
                   style={{ height: "auto" }}
                   alt="Logo"
                 />
@@ -27,7 +27,6 @@ export default function Footer() {
                 <li>Germantown, MD 20876</li>
                 <li>
                   <br />
-                  <br />
                   P: 301-760-6869
                 </li>
                 <li>
@@ -37,7 +36,13 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="menu-item"></div>
+            <div className="menu-item">
+              <ul>
+                <li className="font-bold">
+                  <Link href="/blog">Blog</Link>
+                </li>
+              </ul>
+            </div>
             <div className="menu-item">
               <ul>
                 <li className="font-bold">
@@ -107,6 +112,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
+            <div className="menu-item"></div>
             {/* <div className="menu-item">
               <ul>
                 <li className='font-bold'>Careers</li>

@@ -13,11 +13,16 @@ interface BlogPostPageProps {
 
 // Generate static params for all blog posts
 export async function generateStaticParams() {
-  const posts = await getAllBlogPosts();
-  
-  return posts.map((post) => ({
-    slug: post.fields.slug,
-  }));
+  try {
+    const posts = await getAllBlogPosts();
+    
+    return posts.map((post) => ({
+      slug: post.fields.slug,
+    }));
+  } catch (error) {
+    console.warn('Could not generate blog post params. Contentful may not be configured.', error);
+    return [];
+  }
 }
 
 // Rich text rendering options
