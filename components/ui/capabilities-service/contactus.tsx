@@ -27,7 +27,7 @@ export default function ContactUs({ topic } : ContactUsProps) {
               <div className='mb-10'>
                 <span className='text-white'>GET IN TOUCH TO LEARN MORE ABOUT</span>&nbsp;&nbsp;
                 <span className='txt-warning'>{topic}</span>&nbsp;&nbsp;
-                <span className='text-white'>AT METSTAR PREMIER ERA INNOVATIONS</span>
+                <span className='text-white'>AT HOMEMAX</span>
               </div>
               {/* <div className='text-sm text-white'>
                 Get in touch with us. We are excited to discuss the possibilities ahead of you. We will help you find the path to a rewarding career in the trades.

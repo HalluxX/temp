@@ -9,7 +9,7 @@ interface IBenefit {
 const benefits : IBenefit[] = [
   {
     topic: "Medical",
-    description: "Metstar Premier Era Innovations offers three medical plans with the same expansive provider network.",
+    description: "HomeMax offers three medical plans with the same expansive provider network.",
     details: [
       "PPO Plan",
       "2 High Deductible Health Plans (100% Coinsurance after deductible is met)"
@@ -59,7 +59,7 @@ const benefits : IBenefit[] = [
   {
     topic: "Financial Benefit",
     details: [
-      "401(k) Retirement Plan – Metstar Premier Era Innovations provides a competitive employer match with immediate vesting",
+      "401(k) Retirement Plan – HomeMax provides a competitive employer match with immediate vesting",
     ]
   },
   {

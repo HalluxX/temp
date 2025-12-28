@@ -31,7 +31,7 @@ export default function Footer() {
                   P: 301-760-6869
                 </li>
                 <li>
-                  metstarpremierera
+                  HomeMax
                   <br />
                   innovations@gmail.com
                 </li>
@@ -124,7 +124,7 @@ export default function Footer() {
                 <Link href="https://www.facebook.com/profile.php?id=61552768226665&mibextid=ZbWKwL" className="mr-5">
                   <Icon icon="facebook"/>
                 </Link>
-                <Link href="https://www.instagram.com/metstar.premier.era.innovation/">
+                <Link href="https://www.instagram.com/HomeMax/">
                   <Icon icon="instagram" />
                 </Link>
               </div>
@@ -135,7 +135,7 @@ export default function Footer() {
               href="tel:+3017606869"
               className="inline-flex items-center justify-center w-full text-white py-2 px-4 rounded-full bg-orange-700 transition-colors font-bold"
             >
-              <Icon icon="phone" /> Click To Metstar
+              <Icon icon="phone" /> Click To HomeMax
             </a>
           </div>
         </div>

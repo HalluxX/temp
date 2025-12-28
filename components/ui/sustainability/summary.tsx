@@ -11,7 +11,7 @@ interface INewsItem {
 const news : INewsItem[] = [
   {
     title: "Environment",
-    content: "Building the infrastructure that connects people to the power they need inevitably generates risks to the environment. We use great care to minimize the environmental impact of our projects. At Metstar Premier Era Innovations we are continually innovating to better preserve biodiversity and protect sensitive ecosystems. We are looking to the future and actively reducing the carbon footprint of our operations. We know that a brighter future means a healthier environment."
+    content: "Building the infrastructure that connects people to the power they need inevitably generates risks to the environment. We use great care to minimize the environmental impact of our projects. At HomeMax we are continually innovating to better preserve biodiversity and protect sensitive ecosystems. We are looking to the future and actively reducing the carbon footprint of our operations. We know that a brighter future means a healthier environment."
   },
   {
     title: "Social",
@@ -19,11 +19,11 @@ const news : INewsItem[] = [
   },
   {
     title: "Governance",
-    content: "At Metstar Premier Era Innovations we do it right the first time. We are serious about maintaining a culture of empowerment and inclusion. Our policies and code of conduct were created to treat all people with dignity and respect."
+    content: "At HomeMax we do it right the first time. We are serious about maintaining a culture of empowerment and inclusion. Our policies and code of conduct were created to treat all people with dignity and respect."
   },
   {
     title: "Impact",
-    content: "We recognize our unique position as the world shifts to renewable energy. We have the expertise and capabilities needed to support this transition. From connecting renewable energy sources to the grid to the installation of battery storage systems, Metstar Premier Era Innovations is building tomorrow’s energy infrastructure today."
+    content: "We recognize our unique position as the world shifts to renewable energy. We have the expertise and capabilities needed to support this transition. From connecting renewable energy sources to the grid to the installation of battery storage systems, HomeMax is building tomorrow’s energy infrastructure today."
   }
 ]
 

@@ -54,14 +54,14 @@ export default function QuantaCares() {
       <div className='container mx-auto grid grid-cols-1 md:grid-cols-2 px-11 py-24 gap-10'>
         <div className="col-span-1 description" ref={textRef}>
           <div className="title flex text-4xl md:text-5xl font-bold mb-6">
-            <div className="quanta">METSTAR</div>
+            <div className="quanta">H</div>
             <div className="cares ml-4">CARES.</div>
           </div>
           <div className="content text-lg my-5 font-bold">
-            Metstar Premier Era Innovations Cares initiative was established in 2023 to help those who have lost everything in a disaster, left domestic violence or homelessness. Employee donations, matched by the company and Volunteer days off have been established to assist those affected with living and recovery expenses such as food, clothing, and utilities.
+            HomeMax Cares initiative was established in 2023 to help those who have lost everything in a disaster, left domestic violence or homelessness. Employee donations, matched by the company and Volunteer days off have been established to assist those affected with living and recovery expenses such as food, clothing, and utilities.
           </div>
           {/* <div className="ability text-sm my-2">
-            Metstar Premier Era Innovations Cares was established in 2017 in the wake of Hurricane Harvey to help Metstar Premier Era Innovations employees devastated by the storm. Employee donations, matched by the company, initially raised $1.3 million. The fund has continued to grow and assist employees affected by disasters with living and recovery expenses such as food, clothing, utilities, temporary housing, and property repairs.
+            HomeMax Cares was established in 2017 in the wake of Hurricane Harvey to help HomeMax employees devastated by the storm. Employee donations, matched by the company, initially raised $1.3 million. The fund has continued to grow and assist employees affected by disasters with living and recovery expenses such as food, clothing, utilities, temporary housing, and property repairs.
           </div> */}
           {/* Commented this cause community route is not exist. */}
           {/* <Link href='community'>

@@ -59,10 +59,10 @@ export default function Future () {
         <div className="pay-benefits-future-content p-24">
           <div className="w-full md:w-1/2 about-us" ref={textRef2}>
             <div className="text-md text-white font-bold my-10">
-              At Metstar Premier Era Innovations Services, people are our number one asset and the foundation of our continued success. Our culture is about creating an environment where all employees can be themselves, are valued and have an equal opportunity to succeed.
+              At HomeMax Services, people are our number one asset and the foundation of our continued success. Our culture is about creating an environment where all employees can be themselves, are valued and have an equal opportunity to succeed.
             </div>
             <div className="text-sm text-white my-10">
-              Our goal is to hire individuals who best embody Metstar Premier Era Innovations’s vision and core values. We offer career opportunities across numerous disciplines for professionals, military veterans, recent graduates and students. When you join our team, you join a dynamic culture in which career development is encouraged, excellence is rewarded and diversity is valued. We encourage and support ideas, innovation and advancement. PWRing the future starts with you.
+              Our goal is to hire individuals who best embody HomeMax’s vision and core values. We offer career opportunities across numerous disciplines for professionals, military veterans, recent graduates and students. When you join our team, you join a dynamic culture in which career development is encouraged, excellence is rewarded and diversity is valued. We encourage and support ideas, innovation and advancement. PWRing the future starts with you.
             </div>
           </div>
           <div className="w-full md:w-10/12 p-7 grid grid-cols-1 md:grid-cols-2 bg-black gap-4">
@@ -70,7 +70,7 @@ export default function Future () {
             EXPLORE CORPORATE CAREERS
           </AnimatedButton>
           <AnimatedButton variant='transparent' icon='arrow-right' className='flex text-white text-left text-md'>
-            EXPLORE METSTAR PREMIER ERA INNOVATIONS COMPANIES
+            EXPLORE HomeMax COMPANIES
           </AnimatedButton>
           <AnimatedButton variant='transparent' icon='arrow-right' className='flex text-white text-left text-md'>
             EXPLORE VETERAN CAREERS

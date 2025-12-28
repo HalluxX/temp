@@ -10,12 +10,12 @@ interface INewsItem {
 
 const news : INewsItem[] = [
   {
-    title: "Metstar Premier Era Innovations partners with Synchrony Financial",
-    content: "Big News Alert!  Get ready for a financial game-changer! Metstar Premier Era Innovations is now partnered with Synchrony Financial for easy-peasy financing! Make your purchases more convenient with flexible payment plans. Elevate your home without breaking the bank! Dive into the excitement NOW and schedule your free estimate!"
+    title: "HomeMax partners with Synchrony Financial",
+    content: "Big News Alert!  Get ready for a financial game-changer! HomeMax is now partnered with Synchrony Financial for easy-peasy financing! Make your purchases more convenient with flexible payment plans. Elevate your home without breaking the bank! Dive into the excitement NOW and schedule your free estimate!"
   },
   {
-    title: "Metstar Premier Era Innovations is the newest authorized Generac Generator dealer",
-    content: "Metstar Premier Era Innovations is proud to announce that we are the latest authorized dealer of Generac Generators. With our commitment to excellence and top-tier service, we're thrilled to offer the finest in backup power solutions. Whether for residential or commercial needs, trust us to deliver reliability and peace of mind. Contact us today for a complimentary quote and experience the difference with Metstar Premier Era Innovations.",
+    title: "HomeMax is the newest authorized Generac Generator dealer",
+    content: "HomeMax is proud to announce that we are the latest authorized dealer of Generac Generators. With our commitment to excellence and top-tier service, we're thrilled to offer the finest in backup power solutions. Whether for residential or commercial needs, trust us to deliver reliability and peace of mind. Contact us today for a complimentary quote and experience the difference with HomeMax.",
   }
 ]
 

@@ -80,7 +80,7 @@ export default function Career() {
             <div className='py-12'>
               <span>
                 Whether you are searching for the next step in your career, 
-                or considering a career in the trades, there are more opportunities than ever to chart your path at Metstar Premier Era Innovations.
+                or considering a career in the trades, there are more opportunities than ever to chart your path at HomeMax.
                 With more than 200 operating companies, the right job for you is a click away.
               </span>
             </div>

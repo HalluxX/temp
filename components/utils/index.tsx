@@ -10,6 +10,7 @@ import IntroCard from './IntroCard';
 import ProcessCard from './ProcessCard';
 import CapabilityCard from './CapabilityCard';
 import AnimatedButton from './AnimatedButton';
+import CallToAction from './CallToAction';
 
 export {
     Tag,
@@ -22,4 +23,5 @@ export {
     ProcessCard,
     CapabilityCard,
     AnimatedButton,
+    CallToAction,
 };

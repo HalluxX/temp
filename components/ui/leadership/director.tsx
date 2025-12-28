@@ -24,7 +24,7 @@ export default function Director () {
           }
           <div className="learn-more flex flex-col justify-center text-center mx-auto">
             <div className="text-lg font-bold">
-              Want to learn more about our governance at Metstar Premier Era Innovations Services?
+              Want to learn more about our governance at HomeMax Services?
             </div>
             <Link href='/aboutus'>
               <AnimatedButton variant='transparent' icon='arrow-right' className='text-black text-left text-lg md:text-xl my-12 ml-auto'>

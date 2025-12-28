@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Home - Metstar Premier Era Innovations',
+  title: 'Home - HomeMax Premier Era Innovations',
   description: 'Page description',
 }
 

@@ -28,18 +28,21 @@ export default function Hero({ image, title } : HeroProps) {
 
   return (
     <section className="capabilities-item-hero">
-      <div className='container mx-auto'>
-        <div className="h-full text-left px-10">
-          <Image src={image} alt='capabilities-item-hero' layout='fill' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-          <Link href={'/capabilities'} className='tag'>
-            <Tag variant='warning' className='p-3 text-white font-bold'>
-              CAPABILITIES
-            </Tag>
-          </Link>
-          <div className="text-lg sm:text-2xl md:text-4xl lg:text-5xl capabilities-item-hero-title" ref={titleGroupRef}>
-            <div className='title'>{title}</div>
-          </div>
-        </div>
+      <Image 
+        src={image} 
+        alt={`${title} - Metstar Premier Era Innovations`} 
+        fill 
+        style={{ objectFit: 'cover', zIndex: -1 }} 
+        priority
+        quality={85}
+      />
+      <Link href={'/capabilities'} className='tag'>
+        <Tag variant='warning' className='p-3 text-white font-bold'>
+          CAPABILITIES
+        </Tag>
+      </Link>
+      <div className="text-lg sm:text-2xl md:text-4xl lg:text-5xl capabilities-item-hero-title" ref={titleGroupRef}>
+        <div className='title'>{title}</div>
       </div>
     </section>
   )

@@ -15,8 +15,8 @@ const news : INewsItem[] = [
     content: "Every year Jobs West honors an employer for fostering a diverse workforce that includes neurodiverse staff members. Allteck is Jobs West’s choice for Employer of the Year in 2021! Jobs West enables people with developmental disabilities to prepare for, find and maintain community-based employment placements."
   },
   {
-    title: "Metstar Premier Era Innovations Participates in Human Rights Campaign Corporate Equality Index",
-    content: "Here at Metstar Premier Era Innovations Services we respect and value our LGBTQ+ employees. We are proud to have participated in the Human Rights Campaign’s Corporate Equality Index to show our allyship to our LGBTQ+ workforce. The Corporate Equality Index is the nation’s foremost benchmarking survey and report measuring corporate policies and practices related to LGBTQ+ workplace equality.",
+    title: "HomeMax Participates in Human Rights Campaign Corporate Equality Index",
+    content: "Here at HomeMax Services we respect and value our LGBTQ+ employees. We are proud to have participated in the Human Rights Campaign’s Corporate Equality Index to show our allyship to our LGBTQ+ workforce. The Corporate Equality Index is the nation’s foremost benchmarking survey and report measuring corporate policies and practices related to LGBTQ+ workplace equality.",
   },
   {
     title: "Shay Bahramirad Named President-Elect of IEEE Power and Energy Society",
@@ -76,7 +76,7 @@ export default function Newsreport() {
               NEWS &<br/>REPORT
             </div>
             <div className='text-sm text-black'>
-              Metstar Premier Era Innovations and its operating companies are actively engaged in diversity and inclusion work. Here are some highlights.
+              HomeMax and its operating companies are actively engaged in diversity and inclusion work. Here are some highlights.
             </div>
           </div>
           <div className='col-span-1 md:col-span-2 imagecard'>

@@ -69,7 +69,7 @@ export default function Safety() {
               <div className="always">ALWAYS.</div>
             </div>
             <div className="content text-lg my-5 font-bold">
-              At Metstar Premier Era Innovations Services, safety is not the first thing, but how we do everything. We are deeply committed to the health and safety of our employees, customers, contractors, and the communities we serve. It is our enduring mission that all our people always make it home safe.
+              At HomeMax Services, safety is not the first thing, but how we do everything. We are deeply committed to the health and safety of our employees, customers, contractors, and the communities we serve. It is our enduring mission that all our people always make it home safe.
             </div>
             <div className="ability text-sm my-2">
               Our core philosophy puts safety above all business pursuits and work practices. When it comes to safety, we don’t cut corners, we don’t accept excuses, and we don’t stop at ‘good enough’. Simply put: if it can’t be done safely, it can’t be done.
@@ -88,7 +88,7 @@ export default function Safety() {
               Plan. Execute. Learn.
             </div>
             <div className="ability text-sm my-2">
-              Talk is cheap. Lives are priceless. To say we value safety doesn’t cut it. We examine, analyze, design, plan, innovate, practice, and execute safety. On the jobsite, at the planning desk, and in the boardroom, safety is the first thought—and the second—and the last. We don’t say that Metstar Premier Era Innovations has a culture of safety. We live it.
+              Talk is cheap. Lives are priceless. To say we value safety doesn’t cut it. We examine, analyze, design, plan, innovate, practice, and execute safety. On the jobsite, at the planning desk, and in the boardroom, safety is the first thought—and the second—and the last. We don’t say that HomeMax has a culture of safety. We live it.
             </div>
           </div>
         </div>

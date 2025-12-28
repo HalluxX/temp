@@ -35,7 +35,7 @@ export default function Empowering() {
             Our people are our most valuable resource. We invest in our employees because we only succeed as a business when our employees are able to build meaningful careers.
           </div>
           <div className="ability text-sm my-2">
-            From our world-class Craft Training Network, to our investments in renewable energy infrastructure. Metstar Premier Era Innovations is committed to powering a better world.
+            From our world-class Craft Training Network, to our investments in renewable energy infrastructure. HomeMax is committed to powering a better world.
           </div>
         </div>
         <div className="col-span-1 imagecards my-auto justify-center">

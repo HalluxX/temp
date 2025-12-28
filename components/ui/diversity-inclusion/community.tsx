@@ -25,7 +25,7 @@
                 Community Engagement
               </div>
               <div className="text-sm text-black">
-                A strong culture of volunteerism is a bedrock of Metstar Premier Era Innovations. We know that the strength of our communities is vital to innovation, job creation, and diversification within our industry. We form partnerships in our communities with many different goals to make sure we’re doing our part.
+                A strong culture of volunteerism is a bedrock of HomeMax. We know that the strength of our communities is vital to innovation, job creation, and diversification within our industry. We form partnerships in our communities with many different goals to make sure we’re doing our part.
               </div>
             </div>
             <div className="col-span-1">

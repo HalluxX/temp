@@ -43,7 +43,7 @@ export default function History() {
             <div className="solid">FOUNDED IN 1997. OVER 200 OPERATING UNITS. CUSTOMER-FOCUSED.</div>
           </div>
           <div className="ability text-sm my-2">
-          Metstar Premier Era Innovations has united the best energy infrastructure companies in North America to form the continent’s largest skilled-labor force. We have gathered industry-leading expertise and capabilities with one simple goal: to provide energy infrastructure solutions better and safer than anyone.
+          HomeMax has united the best energy infrastructure companies in North America to form the continent’s largest skilled-labor force. We have gathered industry-leading expertise and capabilities with one simple goal: to provide energy infrastructure solutions better and safer than anyone.
           </div>
           {/* Commented this cause there is no history route */}
           {/* <AnimatedButton variant='transparent' icon='arrow-right' className='text-black text-left text-lg md:text-xl my-2'>

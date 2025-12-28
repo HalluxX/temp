@@ -75,7 +75,7 @@ export const imageCardsData : IImageCardProp[] = [
     imageSrc: imgElectricPower,
     title: 'ELECTRIC POWER',
     subTitle: '',
-    description: 'Metstar Premier Era Innovations has the expertise and capabilities to design and implement end-to-end solutions for every aspect of the electric power sector.',
+    description: 'HomeMax has the expertise and capabilities to design and implement end-to-end solutions for every aspect of the electric power sector.',
     offerings: [
       "Fixtures",
       "Plugs",
@@ -90,7 +90,7 @@ export const imageCardsData : IImageCardProp[] = [
     imageSrc: imgUndergroundUtility,
     title: 'ENERGY EFFICIENCY',
     subTitle: '',
-    description: 'Metstar Premier Era Innovations unites the most skilled tradespeople in the industry with cutting-edge tools to deliver underground infrastructure solutions better and safer than anyone.',
+    description: 'HomeMax unites the most skilled tradespeople in the industry with cutting-edge tools to deliver underground infrastructure solutions better and safer than anyone.',
     offerings: [
       "Windows",
       "Attic Insulation",
@@ -105,7 +105,7 @@ export const imageCardsData : IImageCardProp[] = [
     imageSrc: imgRenewables,
     title: 'SAFETY',
     subTitle: '',
-    description: "Metstar Premier Era Innovations is on the cutting-edge of the transition to a renewably powered, digital future. We're building new ways to capture and store energy, and connecting people to the power of modern life.",
+    description: "HomeMax is on the cutting-edge of the transition to a renewably powered, digital future. We're building new ways to capture and store energy, and connecting people to the power of modern life.",
     offerings: [
       "Hand Rail Installation",
       "Safety Audits for Structures and Electrical",
@@ -124,7 +124,7 @@ export const imageCardsData : IImageCardProp[] = [
     imageSrc: imgBroadBand,
     title: 'INTERIOR REMODELING',
     subTitle: '',
-    description: "Metstar Premier Era Innovations brings people together with a full range of broadband communication capabilities",
+    description: "HomeMax brings people together with a full range of broadband communication capabilities",
     offerings: [
       "Kitchens",
       "Bathrooms",
@@ -145,7 +145,7 @@ export const imageCardsData : IImageCardProp[] = [
     imageSrc: imgSpecialty,
     title: 'EXTERIOR REMODELING',
     subTitle: '',
-    description: "Metstar Premier Era Innovations brings specialty capabilities to bear in solving complex infrastructure challenges better and safer than anyone in the industry.",
+    description: "HomeMax brings specialty capabilities to bear in solving complex infrastructure challenges better and safer than anyone in the industry.",
     offerings: [
       "Lighting Designs",
       "Security Upgrades",
@@ -160,7 +160,7 @@ export const imageCardsData : IImageCardProp[] = [
     imageSrc: imgUtilityPerformance,
     title: 'RESTORATION',
     subTitle: '',
-    description: "Our team of over 3000 engineers, licenced professionals, and subject matter experts, backed by the expertise and capabilities of over 200 operating companies, make Metstar Premier Era Innovations Services North America's premiere provider of end-to-end energy infrastructure solutions.",
+    description: "Our team of over 3000 engineers, licenced professionals, and subject matter experts, backed by the expertise and capabilities of over 200 operating companies, make HomeMax Services North America's premiere provider of end-to-end energy infrastructure solutions.",
     offerings: [
       "Fire and Water Damaged Repairs",
       "Remediation Services",
@@ -171,7 +171,7 @@ export const imageCardsData : IImageCardProp[] = [
     imageSrc: imgEngineering,
     title: 'GENERATORS',
     subTitle: '',
-    description: "Thousands of Metstar Premier Era Innovations engineers and subject-matter experts work closely with out craft laborers to design innovative solutions for the most complex energy infrastructure challenges.",
+    description: "Thousands of HomeMax engineers and subject-matter experts work closely with out craft laborers to design innovative solutions for the most complex energy infrastructure challenges.",
     offerings: [
       "Generator Installs",
       "Service",
@@ -206,64 +206,64 @@ export const peopleLeadership : IPerson[] = [
     photo: imgAnthony,
     fullname: "Anthony Marks",
     role: "Co-Chief Executive Officer",
-    introduction: "Anthony Marks serves as Co-Chief Executive Officer of Metstar Premier Era Innovations. He has been instrumental in growing Metstar Services into a full service company. Marks has led significant growth in Metstars key markets, including the strategic development of the company’s capabilities for all phases of infrastructure solutions. As a member of the Metstar Premier Era Innovations the knowledge and insight Marks has gained from his experience as a entrepreneur and executive have proven invaluable. Before joining Metstar Premier Era Innovations, Marks served as a financial and operational consultant for several start ups throughout the country. His vision and understanding of industries manifested in the exceptional strategic growth of the company. Marks holds over 10 years of experience with strategic planning and operations. Marks resides in Gaithersburg, MD with his wife and 2 cats."
+    introduction: "Anthony Marks serves as Co-Chief Executive Officer of HomeMax. He has been instrumental in growing HomeMax Services into a full service company. Marks has led significant growth in HomeMax's key markets, including the strategic development of the company’s capabilities for all phases of infrastructure solutions. As a member of the HomeMax the knowledge and insight Marks has gained from his experience as a entrepreneur and executive have proven invaluable. Before joining HomeMax, Marks served as a financial and operational consultant for several start ups throughout the country. His vision and understanding of industries manifested in the exceptional strategic growth of the company. Marks holds over 10 years of experience with strategic planning and operations. Marks resides in Gaithersburg, MD with his wife and 2 cats."
   },
   // {
   //   photo: imgFrederick,
   //   fullname: "Frederick Torrence",
   //   role: "Co-Chief Executive Officer",
-  //   introduction: "Frederick Torrence serves as Co-Chief Executive Officer of Metstar Premier Era Innovations. From assessment and planning to engineering and construction, Torrence has transformed Metstar Premier Era Innovations from a construction company to a partner of choice for clients. Torrence has a business management background in IT and network design and over 5 years of experience as an electrician. Torrence resides in West Virginia with his wife 2 children and dog."
+  //   introduction: "Frederick Torrence serves as Co-Chief Executive Officer of HomeMax. From assessment and planning to engineering and construction, Torrence has transformed HomeMax from a construction company to a partner of choice for clients. Torrence has a business management background in IT and network design and over 5 years of experience as an electrician. Torrence resides in West Virginia with his wife 2 children and dog."
   // },
-  {
-    photo: imgJustin,
-    fullname: "Justin Sullivan",
-    role: "Chief Operations Officer",
-    introduction: "Justin Sullivan serves as Chief Operations Officer. Sullivan directly oversees all of Metstar Premier Era Innovations operations. His leadership and experience has directly and positively impacted the strategic growth of Metstar Premier Era Innovations in all areas of electrical engineering and construction. Developing his skills in the field with over 13 years of experience, he attained certifications as a Master Electrician. Through his experience in the trades, Sullivan recognized the opportunity posed by unmet needs in the industry. Sullivan is a graduate of Thomas Edison School of Technology in Silver Spring, MD , where his leadership qualities immediately afforded him responsibilities over crew safety, job efficiency, and client satisfaction. Sullivan resides in Frederick, MD with his 2 children. In his free time, he is a competitive motorcycle drag racer."
-  },
+  // {
+  //   photo: imgJustin,
+  //   fullname: "Justin Sullivan",
+  //   role: "Chief Operations Officer",
+  //   introduction: "Justin Sullivan serves as Chief Operations Officer. Sullivan directly oversees all of HomeMax operations. His leadership and experience has directly and positively impacted the strategic growth of HomeMax in all areas of electrical engineering and construction. Developing his skills in the field with over 13 years of experience, he attained certifications as a Master Electrician. Through his experience in the trades, Sullivan recognized the opportunity posed by unmet needs in the industry. Sullivan is a graduate of Thomas Edison School of Technology in Silver Spring, MD , where his leadership qualities immediately afforded him responsibilities over crew safety, job efficiency, and client satisfaction. Sullivan resides in Frederick, MD with his 2 children. In his free time, he is a competitive motorcycle drag racer."
+  // },
 ]
 
 export const peoplePresident : IPerson[] = [
-  {
-    photo: imgRick,
-    fullname: "Justin Sullivan",
-    role: "Chief Operations Officer",
-    introduction: "Justin Sullivan serves as Chief Operations Officer. Sullivan directly oversees all of Metstar Premier Era Innovations operations. His leadership and experience has directly and positively impacted the strategic growth of Metstar Premier Era Innovations in all areas of electrical engineering and construction. Developing his skills in the field with over 13 years of experience, he attained certifications as a Master Electrician. Through his experience in the trades, Sullivan recognized the opportunity posed by unmet needs in the industry. Sullivan is a graduate of Thomas Edison School of Technology in Silver Spring, MD , where his leadership qualities immediately afforded him responsibilities over crew safety, job efficiency, and client satisfaction. Sullivan resides in Frederick, MD with his 2 children. In his free time, he is a competitive motorcycle drag racer."
-  },
+  // {
+  //   photo: imgRick,
+  //   fullname: "Justin Sullivan",
+  //   role: "Chief Operations Officer",
+  //   introduction: "Justin Sullivan serves as Chief Operations Officer. Sullivan directly oversees all of HomeMax operations. His leadership and experience has directly and positively impacted the strategic growth of HomeMax in all areas of electrical engineering and construction. Developing his skills in the field with over 13 years of experience, he attained certifications as a Master Electrician. Through his experience in the trades, Sullivan recognized the opportunity posed by unmet needs in the industry. Sullivan is a graduate of Thomas Edison School of Technology in Silver Spring, MD , where his leadership qualities immediately afforded him responsibilities over crew safety, job efficiency, and client satisfaction. Sullivan resides in Frederick, MD with his 2 children. In his free time, he is a competitive motorcycle drag racer."
+  // },
   {
     photo: imgZane,
     fullname: "Zane Brink",
     role: "Regional President, Central",
-    introduction: "Zane Brink serves as Regional President of the Metstar Premier Era Innovations Central region. Brink is passionate about the utility industry, and his dedication runs as deep as his hard-earned expertise. His leadership, marked by sincere respect, appreciation, and fairness, continues to draw the best work from his teams. Brink has over 30 years of experience in the […]"
+    introduction: "Zane Brink serves as Regional President of the HomeMax Central region. Brink is passionate about the utility industry, and his dedication runs as deep as his hard-earned expertise. His leadership, marked by sincere respect, appreciation, and fairness, continues to draw the best work from his teams. Brink has over 30 years of experience in the […]"
   },
   {
     photo: imgRandolph,
     fullname: "Randolph “Bo” Cassidy",
     role: "Regional President, South",
-    introduction: "Bo Cassidy serves as Regional President of the Metstar Premier Era Innovations South region. Cassidy provides operational leadership for 12 operating companies, guiding and coordinating their service to the electric power, gas, telecom, and midstream energy industries. Cassidy began his career in 2002 with R. R. Cassidy, Inc., now a Metstar Premier Era Innovations operating company. Founded by his father, a […]"
+    introduction: "Bo Cassidy serves as Regional President of the HomeMax South region. Cassidy provides operational leadership for 12 operating companies, guiding and coordinating their service to the electric power, gas, telecom, and midstream energy industries. Cassidy began his career in 2002 with R. R. Cassidy, Inc., now a HomeMax operating company. Founded by his father, a […]"
   },
   {
     photo: imgLoren,
     fullname: "Loren Chandler",
     role: "Regional President, West",
-    introduction: "Loren Chandler serves as Regional President of the Metstar Premier Era Innovations West region. He leads the strategic development and operational execution of Metstar Premier Era Innovations operating company capabilities and client services to advance energy transition solutions for the Western United States. Metstar Premier Era Innovations relies on Chandler’s hands-on leadership and deep understanding of the energy industries, and vision for the future […]"
+    introduction: "Loren Chandler serves as Regional President of the HomeMax West region. He leads the strategic development and operational execution of HomeMax operating company capabilities and client services to advance energy transition solutions for the Western United States. HomeMax relies on Chandler’s hands-on leadership and deep understanding of the energy industries, and vision for the future […]"
   },
   {
     photo: imgLee,
     fullname: "Lee Jones",
     role: "President — Underground Utilities & Industrial",
-    introduction: "Lee Jones serves as Regional President of the Metstar Premier Era Innovations Southeast region. He oversees the eight operating companies headquartered in the region, as well as many others that operate there. Jones works to ensure seamless coordination between the operating companies, enhance customer engagement, and continually improve the performance of major projects and programs. In his 20-year […]"
+    introduction: "Lee Jones serves as Regional President of the HomeMax Southeast region. He oversees the eight operating companies headquartered in the region, as well as many others that operate there. Jones works to ensure seamless coordination between the operating companies, enhance customer engagement, and continually improve the performance of major projects and programs. In his 20-year […]"
   },
   {
     photo: imgRobert,
     fullname: "Robert E. Jones",
     role: "Regional President, Canada",
-    introduction: "Robert Jones serves as Regional President of the Metstar Premier Era Innovations Canada region. His four decades of energy services experience span executive leadership, strategy, business development, planning, engineering, construction, operations, and professional consulting. Jones’s vast industry knowledge and leadership qualities are indispensable as Metstar Premier Era Innovations positions itself to provide the expert capabilities needed to build Canada’s energy transition […]"
+    introduction: "Robert Jones serves as Regional President of the HomeMax Canada region. His four decades of energy services experience span executive leadership, strategy, business development, planning, engineering, construction, operations, and professional consulting. Jones’s vast industry knowledge and leadership qualities are indispensable as HomeMax positions itself to provide the expert capabilities needed to build Canada’s energy transition […]"
   },
   {
     photo: imgDaniel,
     fullname: "Daniel “Dan” Lazic",
     role: "Regional President, Northeast",
-    introduction: "Dan Lazic serves as Regional President of the Metstar Premier Era Innovations Northeast region. Lazic leads Metstar Premier Era Innovations operating companies across 16 states in the midwestern and northeastern US. He continuously advances Metstar Premier Era Innovations’s Culture of Safety and guides operating companies in his region to better serve partners and clients in the electric transmission and distribution, pipeline, telecom, and renewable […]"
+    introduction: "Dan Lazic serves as Regional President of the HomeMax Northeast region. Lazic leads HomeMax operating companies across 16 states in the midwestern and northeastern US. He continuously advances HomeMax’s Culture of Safety and guides operating companies in his region to better serve partners and clients in the electric transmission and distribution, pipeline, telecom, and renewable […]"
   },
 ]
 
@@ -354,7 +354,7 @@ export const environments : IPerson[] = [
   {
     photo: imgFacilities,
     fullname: "Our Facilities",
-    introduction: "Metstar Premier Era Innovations unites over 200 operating companies."
+    introduction: "HomeMax unites over 200 operating companies."
   },
   {
     photo: imgProjects,
@@ -372,7 +372,7 @@ export const socials : IPerson[] = [
   {
     photo: imgCommunites,
     fullname: "Strengthening Communities",
-    introduction: "Giving back to our communities has been part of Metstar Premier Era Innovations operating companies’ culture for more than a century."
+    introduction: "Giving back to our communities has been part of HomeMax operating companies’ culture for more than a century."
   },
   {
     photo: imgEmployees,
@@ -385,12 +385,12 @@ export const governances : IPerson[] = [
   {
     photo: imgDirectors,
     fullname: "Board of Directors",
-    introduction: "We recognize that the success of Metstar Premier Era Innovations lies not only in creating long-term sustainable value for stockholders, but also in benefiting all stakeholders."
+    introduction: "We recognize that the success of HomeMax lies not only in creating long-term sustainable value for stockholders, but also in benefiting all stakeholders."
   },
   {
     photo: imgConduct,
     fullname: "Code of Conduct",
-    introduction: "At Metstar Premier Era Innovations, we don’t want to meet the industry standard, we want to set the industry standard."
+    introduction: "At HomeMax, we don’t want to meet the industry standard, we want to set the industry standard."
   },
   {
     photo: imgHumanright,
@@ -572,7 +572,7 @@ export const projectcards : IProject[][] = [
     {
       photo: imgProjectExterior1,
       title: "Hurricane Laura Storm Response",
-      content: "Hurricane Laura decimated Entergy’s transmission system on the gulf coast of Louisiana.  Entergy awarded 10 transmission lines of varying voltages (69kV-500kV) to Metstar Premier Era Innovations for an emergency rebuild. Highlighted below are two of the more critical projects"
+      content: "Hurricane Laura decimated Entergy’s transmission system on the gulf coast of Louisiana.  Entergy awarded 10 transmission lines of varying voltages (69kV-500kV) to HomeMax for an emergency rebuild. Highlighted below are two of the more critical projects"
     },
     {
       photo: imgProjectExterior2,

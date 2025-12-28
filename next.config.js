@@ -3,32 +3,14 @@ const path = require('path')
 
 const nextConfig = {
   reactStrictMode: true,
+  images: {
+    domains: ['images.ctfassets.net'],
+  },
   webpack(config) {
-    config.module.rules.push(
-      {
-        test: /\.svg$/i,
-        issuer: /\.[jt]sx?$/,
-        use: [
-          { 
-            loader: '@svgr/webpack' , 
-            options: { 
-              svgoConfig: {
-                plugins: [
-                  {
-                    name: 'preset-default',
-                    params: {
-                      overrides: {
-                        removeViewBox: false
-                      }
-                    }
-                  }
-                ],
-              }
-            }
-          },
-        ],
-      }
-    );
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ['@svgr/webpack'],
+    });
     return config;
   },
   sassOptions: {

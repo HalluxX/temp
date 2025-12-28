@@ -9,7 +9,7 @@ export default function Report() {
       <div className='sustainability-report container flex justify-around items-center p-10 w-10/12 mx-auto'>
         <div className="text-xl md:text-3xl">
           <div className="text-black font-bold">
-            2022 METSTAR PREMIER ERA INNOVATIONS
+            2022 HomeMax
           </div>
           <div className="mb-5 font-bold">
             <span className="text-white">ABOUT US</span>&nbsp;

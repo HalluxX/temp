@@ -21,13 +21,16 @@ export default function Hero() {
 
   return (
     <section className="capabilities-hero">
-      <div className='container mx-auto'>
-        <div className="h-full text-left flex">
-          <Image src={imgCapabilitiesHero} alt='capabilities-hero' layout='fill' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-          <div className="text-lg sm:text-2xl md:text-4xl lg:text-5xl capabilities-hero-title" ref={titleGroupRef}>
-            <div className='title'>CAPABILITIES</div>
-          </div>
-        </div>
+      <Image 
+        src={imgCapabilitiesHero} 
+        alt='Capabilities - Metstar Premier Era Innovations' 
+        fill 
+        style={{ objectFit: 'cover', zIndex: -1 }} 
+        priority
+        quality={85}
+      />
+      <div className="text-lg sm:text-2xl md:text-4xl lg:text-5xl capabilities-hero-title" ref={titleGroupRef}>
+        <div className='title'>CAPABILITIES</div>
       </div>
     </section>
   )

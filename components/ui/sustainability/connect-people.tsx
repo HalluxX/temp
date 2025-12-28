@@ -9,7 +9,7 @@ export default function ConnectPeople() {
     <section className="sustainability-connect-people">
       <div className='container mx-auto px-11 py-24 w-8/12'>
         <Tag variant='warning' className='p-3 tracking-wider font-bold text-sm'>
-          METSTAR PREMIER ERA INNOVATIONS 2022 SUSTAINABILITY REPORT
+          HomeMax 2022 SUSTAINABILITY REPORT
         </Tag>
         <div className="text-4xl md:text-5xl text-white font-bold mt-12">
           CONNECTING PEOPLE:

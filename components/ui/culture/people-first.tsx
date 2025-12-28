@@ -16,7 +16,7 @@ export default function PeopleFirst() {
           <span className="first text-black">FIRST.</span>
         </div>
         <div className="text-md text-white font-bold">
-          At Metstar Premier Era Innovations Services, our people are the heart of everything we do. We know our differences make us stronger as we work towards our common goals. We intentionally support an environment where all employees are valued and empowered to succeed.
+          At HomeMax Services, our people are the heart of everything we do. We know our differences make us stronger as we work towards our common goals. We intentionally support an environment where all employees are valued and empowered to succeed.
         </div>
       </div>
       <Image src={imgPeople1} alt="people1" className="w-1/2" />

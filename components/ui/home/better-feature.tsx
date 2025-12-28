@@ -6,7 +6,6 @@ import Link from 'next/link';
 import { Tag, Button, AnimatedButton, ImageCard } from '../../utils'
 
 import { imageCardsData } from '@/constants';
-import Badge from '@/components/utils/Badge';
 
 export default function BetterFeature() {
 
@@ -88,7 +87,7 @@ export default function BetterFeature() {
                 </AnimatedButton>
               </Link>
               <div className='text-2xl md:text-3xl text-white font-bold'>
-                INTERESTED IN ALL METSTAR PREMIER ERA INNOVATIONS HAS TO OFFER?
+                INTERESTED IN ALL HOMEMAX HAS TO OFFER?
               </div>
               <Link href="capabilities-catalog">
                 <AnimatedButton variant='warning' icon='arrow-right' className='text-white text-left text-sm'>
@@ -100,7 +99,6 @@ export default function BetterFeature() {
                   CONTACT US
                 </AnimatedButton>
               </Link>
-              <Badge />
             </div>
           </div>
         </div>
