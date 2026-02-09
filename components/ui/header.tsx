@@ -131,7 +131,7 @@ export default function Header() {
     <header>
       <div className={`header fixed top-0 w-full flex flex-col z-30 transition-all duration-500 ${summaryPage ? 'h-full header-bg-summary' : 'header-bg'}`}>
         <div className='w-full bg-black py-2.5 md:hidden'>
-          <h2 className='text-white font-bold text-center text-xl'>301-760-6869</h2>
+          <h2 className='text-white font-bold text-center text-xl'>302-404-4526</h2>
         </div>
         <div className="flex items-center justify-between px-3 py-1.5">
 

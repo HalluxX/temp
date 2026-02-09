@@ -14,7 +14,7 @@ export default function Footer() {
                 <li>Dover, DE, 19901</li>
                 <li>
                   <br />
-                  P: 301-760-6869
+                  P: 302-404-4526
                 </li>
                 <li>
                   HomeMax

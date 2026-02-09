@@ -52,10 +52,10 @@ const CallToAction: React.FC<CallToActionProps> = ({
             <div className="flex items-center gap-2">
               <span className={`text-sm ${textColor}`}>or call us:</span>
               <a 
-                href="tel:301-760-6869" 
+                href="tel:302-404-4526" 
                 className="text-xl font-bold hover:underline transition-all duration-200"
               >
-                301-760-6869
+                302-404-4526
               </a>
             </div>
           )}
