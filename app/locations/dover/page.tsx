@@ -1,5 +1,6 @@
 import Hero from '@/components/ui/capabilities-service/hero'
 import ContactUs from '@/components/ui/capabilities-service/contactus'
+import LocationCapabilitiesList from '@/components/ui/capabilities/location-capabilities-list'
 
 import imgRenewables from '@/assets/images/renewables.webp';
 
@@ -97,6 +98,12 @@ export default function DoverServicesPage() {
             </div>
           </div>
         </section>
+
+        {/* Capabilities List with Interactive Map */}
+        <LocationCapabilitiesList 
+          location="dover" 
+          locationName="Dover"
+        />
 
         <ContactUs topic='DOVER SERVICES' />
       </main>

@@ -1,5 +1,6 @@
 import Hero from '@/components/ui/capabilities-service/hero'
 import ContactUs from '@/components/ui/capabilities-service/contactus'
+import LocationCapabilitiesList from '@/components/ui/capabilities/location-capabilities-list'
 
 import imgEngineering from '@/assets/images/engineering.webp';
 
@@ -53,6 +54,12 @@ export default function MilfordServicesPage() {
             </div>
           </div>
         </section>
+
+        {/* Capabilities List with Interactive Map */}
+        <LocationCapabilitiesList 
+          location="milford" 
+          locationName="Milford"
+        />
 
         <ContactUs topic='MILFORD SERVICES' />
       </main>

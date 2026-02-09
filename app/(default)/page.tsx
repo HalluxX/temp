@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'HomeMax Premier Era Innovations | Seaford, Delaware | Electrical & Remodeling Services',
-  description: 'Leading electrical, remodeling, and generator installation services in Seaford, Delaware. Serving Sussex County and the Greater Delmarva Peninsula with expert craftsmanship and reliable service.',
+  title: 'HomeMax Premier Era Innovations | Dover, Delaware | Electrical & Remodeling Services',
+  description: 'Leading electrical, remodeling, and generator installation services in Dover, Delaware. Located at 8 The Green, Dover DE 19901. Serving Kent County and the Greater Delmarva Peninsula with expert craftsmanship and reliable service.',
 }
 
 import Hero from '@/components/ui/home/hero'

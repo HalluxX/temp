@@ -1,5 +1,6 @@
 import Hero from '@/components/ui/capabilities-service/hero'
 import ContactUs from '@/components/ui/capabilities-service/contactus'
+import LocationCapabilitiesList from '@/components/ui/capabilities/location-capabilities-list'
 
 import imgConcreteSolution from '@/assets/images/concrete-solution.webp';
 
@@ -53,6 +54,12 @@ export default function BridgevilleServicesPage() {
             </div>
           </div>
         </section>
+
+        {/* Capabilities List with Interactive Map */}
+        <LocationCapabilitiesList 
+          location="bridgeville" 
+          locationName="Bridgeville"
+        />
 
         <ContactUs topic='BRIDGEVILLE SERVICES' />
       </main>

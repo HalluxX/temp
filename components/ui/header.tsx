@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link';
 import { IMenu } from '@/types'
 import { Input, Icon, AnimatedButton } from '@/components/utils'
-import imgLogo from '@/assets/images/logo.png'
+import BannerLogoMax from '@/assets/images/banner_logo_max.svg'
 import whiteImgLogo from '@/assets/images/white-text-transparent-logo.png'
 
 const MENUS : IMenu[] = [
@@ -130,14 +130,18 @@ export default function Header() {
   return (
     <header>
       <div className={`header fixed top-0 w-full flex flex-col z-30 transition-all duration-500 ${summaryPage ? 'h-full header-bg-summary' : 'header-bg'}`}>
-        <div className='w-full bg-black py-5 md:hidden'>
+        <div className='w-full bg-black py-2.5 md:hidden'>
           <h2 className='text-white font-bold text-center text-xl'>301-760-6869</h2>
         </div>
-        <div className="flex items-center justify-between px-3 py-1">
+        <div className="flex items-center justify-between px-3 py-1.5">
 
           {/* Site branding */}
-          <a href='/' className="header-icon">
-            <Image src={summaryPage ? whiteImgLogo : imgLogo} width={190} height={190} alt="Logo" style={{ height: 'auto' }}/>
+          <a href='/' className="header-icon flex items-center">
+            {summaryPage ? (
+              <Image src={whiteImgLogo} width={190} height={190} alt="Logo" style={{ height: 'auto' }} />
+            ) : (
+              <BannerLogoMax width={190} height={190} style={{ height: 'auto', maxWidth: 190 }} className="inline-block" aria-hidden="true" />
+            )}
           </a>
 
           {/* Menu Bar */}

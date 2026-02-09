@@ -1,5 +1,6 @@
 import Hero from '@/components/ui/capabilities-service/hero'
 import ContactUs from '@/components/ui/capabilities-service/contactus'
+import LocationCapabilitiesList from '@/components/ui/capabilities/location-capabilities-list'
 
 import imgUtilityPerformance from '@/assets/images/utility-performance.webp';
 
@@ -52,6 +53,12 @@ export default function LaurelServicesPage() {
             </div>
           </div>
         </section>
+
+        {/* Capabilities List with Interactive Map */}
+        <LocationCapabilitiesList 
+          location="laurel" 
+          locationName="Laurel"
+        />
 
         <ContactUs topic='LAUREL SERVICES' />
       </main>

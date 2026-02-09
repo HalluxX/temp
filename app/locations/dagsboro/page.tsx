@@ -1,5 +1,6 @@
 import Hero from '@/components/ui/capabilities-service/hero'
 import ContactUs from '@/components/ui/capabilities-service/contactus'
+import LocationCapabilitiesList from '@/components/ui/capabilities/location-capabilities-list'
 
 import imgSpecialty from '@/assets/images/speciality.webp';
 
@@ -52,6 +53,12 @@ export default function DagsboroServicesPage() {
             </div>
           </div>
         </section>
+
+        {/* Capabilities List with Interactive Map */}
+        <LocationCapabilitiesList 
+          location="dagsboro" 
+          locationName="Dagsboro"
+        />
 
         <ContactUs topic='DAGSBORO SERVICES' />
       </main>

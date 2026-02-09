@@ -1,4 +1,14 @@
 .header {
+  &-icon {
+    img, svg {
+      max-height: 6rem;
+      width: auto;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
   &-bg-summary {
     background-color: $gray-color3;
   }
@@ -10,12 +20,6 @@
     }
     &-hide {
       top:-115px;
-    }
-  }
-
-  &-icon {
-    &:hover {
-      cursor: pointer;
     }
   }
   

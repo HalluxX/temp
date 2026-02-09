@@ -1,5 +1,6 @@
 import Hero from '@/components/ui/capabilities-service/hero'
 import ContactUs from '@/components/ui/capabilities-service/contactus'
+import LocationCapabilitiesList from '@/components/ui/capabilities/location-capabilities-list'
 
 import imgUndergroundUtility from '@/assets/images/underground-utility.webp';
 
@@ -96,6 +97,12 @@ export default function LewesServicesPage() {
             </div>
           </div>
         </section>
+
+        {/* Capabilities List with Interactive Map */}
+        <LocationCapabilitiesList 
+          location="lewes" 
+          locationName="Lewes"
+        />
 
         <ContactUs topic='LEWES SERVICES' />
       </main>

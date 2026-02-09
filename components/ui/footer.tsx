@@ -1,6 +1,4 @@
-import Image from "next/image";
 import Link from "next/link";
-import imgLogo from "@/assets/images/white-text-transparent-logo.png";
 import { Icon } from "@/components/utils";
 
 export default function Footer() {
@@ -8,23 +6,12 @@ export default function Footer() {
     <footer>
       <div className="footer">
         <div className="footer-body">
-          <div className="footer-container text-base lg:grid-cols-6 lgx:grid-cols-3">
-            <div className="menu-item logo-menu">
-              <a href="/">
-                <Image
-                  src={imgLogo}
-                  width={180}
-                  height={180}
-                  style={{ height: "auto" }}
-                  alt="Logo"
-                />
-              </a>
-            </div>
+          <div className="footer-container text-base lg:grid-cols-4 lgx:grid-cols-2">
             <div className="menu-item">
               <ul>
                 <li className="font-bold">Headquarters</li>
-                <li>12410 milestone center dr suite 600</li>
-                <li>Germantown, MD 20876</li>
+                <li>8 The Green #23065</li>
+                <li>Dover, DE, 19901</li>
                 <li>
                   <br />
                   P: 301-760-6869
@@ -32,7 +19,7 @@ export default function Footer() {
                 <li>
                   HomeMax
                   <br />
-                  innovations@gmail.com
+                   info@homemaxrg.com
                 </li>
               </ul>
             </div>
@@ -112,7 +99,6 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="menu-item"></div>
             {/* <div className="menu-item">
               <ul>
                 <li className='font-bold'>Careers</li>

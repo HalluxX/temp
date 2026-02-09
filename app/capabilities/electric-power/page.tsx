@@ -100,7 +100,7 @@ export default function ElectricPowerLayout() {
                   "provider": {
                     "@type": "LocalBusiness",
                     "name": "HomeMax RG",
-                    "image": "https://homemaxrg.com/images/logo.png",
+                    "image": "https://www.homemaxrg.com/banner_logo_max.svg",
                     "@id": "https://homemaxrg.com/#organization",
                   },
                   "areaServed": [
