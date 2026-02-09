@@ -30,7 +30,7 @@ export default function Hero({ image, title } : HeroProps) {
     <section className="capabilities-item-hero">
       <Image 
         src={image} 
-        alt={`${title} - Metstar Premier Era Innovations`} 
+        alt={`${title} - HomeMax Premier Era Innovations`} 
         fill 
         style={{ objectFit: 'cover', zIndex: -1 }} 
         priority
