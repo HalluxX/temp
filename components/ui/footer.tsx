@@ -126,7 +126,7 @@ export default function Footer() {
           </div>
           <div className="md:hidden fixed bottom-0 left-0 w-full text-center">
             <a
-              href="tel:+3024044526"
+              href="tel:+13024044526"
               className="inline-flex items-center justify-center w-full text-white py-2 px-4 rounded-full bg-orange-700 transition-colors font-bold"
             >
               <Icon icon="phone" /> Click To Call HomeMax
