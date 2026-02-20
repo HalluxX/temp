@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: 'Exterior Remodeling Services in Dagsboro, DE',
     description: 'Professional exterior remodeling services for Dagsboro homes. Weather-resistant upgrades, curb appeal improvements, and structural enhancements built for Delaware.',
     url: 'https://homemaxrg.com/locations/dagsboro/capabilities/exterior-remodeling',
-    siteName: 'HomeMax Premier Era Innovations',
+    siteName: 'HomeMax Remodeling Group',
     locale: 'en_US',
     type: 'website',
   },
@@ -611,7 +611,7 @@ export default function DagsboroExteriorRemodelingPage() {
                   "description": "Professional exterior remodeling services including exterior home renovations, structural improvements, weather-resistant upgrades, curb appeal enhancements, and exterior repair work for homes in Dagsboro, Delaware.",
                   "provider": {
                     "@type": "LocalBusiness",
-                    "name": "HomeMax Premier Era Innovations",
+                    "name": "HomeMax Remodeling Group",
                     "@id": "https://homemaxrg.com/#organization",
                   },
                   "areaServed": {

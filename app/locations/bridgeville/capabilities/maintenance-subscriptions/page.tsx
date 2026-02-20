@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: 'Home Maintenance Subscriptions in Bridgeville, DE',
     description: 'Professional home maintenance subscription plans for Bridgeville homes. Preventative care, scheduled inspections, and reliable upkeep services.',
     url: 'https://homemaxrg.com/locations/bridgeville/capabilities/maintenance-subscriptions',
-    siteName: 'HomeMax Premier Era Innovations',
+    siteName: 'HomeMax Remodeling Group',
     locale: 'en_US',
     type: 'website',
   },
@@ -675,7 +675,7 @@ export default function BridgevilleMaintenanceSubscriptionsPage() {
                   "description": "Professional home maintenance subscription plans including preventative home care, routine inspections, scheduled maintenance, electrical system checks, safety reviews, and residential upkeep services for homes in Bridgeville, Delaware.",
                   "provider": {
                     "@type": "LocalBusiness",
-                    "name": "HomeMax Premier Era Innovations",
+                    "name": "HomeMax Remodeling Group",
                     "@id": "https://homemaxrg.com/#organization",
                   },
                   "areaServed": {

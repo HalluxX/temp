@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: 'Energy Efficiency Home Upgrades in Laurel, DE',
     description: 'HomeMax helps Laurel homeowners make practical energy efficiency upgrades that reduce wasted energy, improve comfort, and lower utility costs.',
     url: 'https://www.homemaxrg.com/locations/laurel/capabilities/energy-efficiency',
-    siteName: 'HomeMax Premier Era Innovations',
+    siteName: 'HomeMax Remodeling Group',
     locale: 'en_US',
     type: 'website',
   },
@@ -340,7 +340,7 @@ export default function LaurelEnergyEfficiencyPage() {
                   description: 'Energy efficiency services in Laurel, DE. Practical home improvements that reduce wasted energy, improve comfort, and lower utility costs. Insulation, air sealing, electrical efficiency, and sustainable upgrades for Laurel homeowners.',
                   provider: {
                     '@type': 'LocalBusiness',
-                    name: 'HomeMax Premier Era Innovations',
+                    name: 'HomeMax Remodeling Group',
                     '@id': 'https://www.homemaxrg.com/#organization',
                   },
                   areaServed: {

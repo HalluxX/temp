@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description:
       'HomeMax provides exterior remodeling services in Laurel, DE focused on protection, durability, curb appeal, and long-term home value.',
     url: 'https://www.homemaxrg.com/locations/laurel/capabilities/exterior-remodeling',
-    siteName: 'HomeMax Premier Era Innovations',
+    siteName: 'HomeMax Remodeling Group',
     locale: 'en_US',
     type: 'website',
   },
@@ -401,7 +401,7 @@ export default function LaurelExteriorRemodelingPage() {
                     'Exterior remodeling services in Laurel, DE focused on durability, weather resistance, curb appeal, and long-term home value. HomeMax provides professional exterior upgrades tailored to Laurel homeowners.',
                   provider: {
                     '@type': 'LocalBusiness',
-                    name: 'HomeMax Premier Era Innovations',
+                    name: 'HomeMax Remodeling Group',
                     '@id': 'https://www.homemaxrg.com/#organization',
                   },
                   areaServed: {

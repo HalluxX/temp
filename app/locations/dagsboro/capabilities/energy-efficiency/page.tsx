@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: 'Energy Efficiency Services in Dagsboro, DE',
     description: 'Professional energy efficiency services for Dagsboro homes. Smart upgrades that lower bills, improve comfort, and reduce energy waste.',
     url: 'https://homemaxrg.com/locations/dagsboro/capabilities/energy-efficiency',
-    siteName: 'HomeMax Premier Era Innovations',
+    siteName: 'HomeMax Remodeling Group',
     locale: 'en_US',
     type: 'website',
   },
@@ -613,7 +613,7 @@ export default function DagsboroEnergyEfficiencyPage() {
                   "description": "Professional energy efficiency services including home energy upgrades, insulation improvements, air sealing, system efficiency enhancements, and energy-saving solutions for homes in Dagsboro, Delaware.",
                   "provider": {
                     "@type": "LocalBusiness",
-                    "name": "HomeMax Premier Era Innovations",
+                    "name": "HomeMax Remodeling Group",
                     "@id": "https://homemaxrg.com/#organization",
                   },
                   "areaServed": {

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: 'Home Restoration Services in Bridgeville, DE',
     description: 'Professional home restoration services for Bridgeville homes. Structural repair, property damage recovery, and residential restoration from trusted local experts.',
     url: 'https://homemaxrg.com/locations/bridgeville/capabilities/restoration',
-    siteName: 'HomeMax Premier Era Innovations',
+    siteName: 'HomeMax Remodeling Group',
     locale: 'en_US',
     type: 'website',
   },
@@ -685,7 +685,7 @@ export default function BridgevilleRestorationPage() {
                   "description": "Professional home restoration services including residential property repair, structural restoration, damage recovery, interior and exterior restoration, safety improvements, and long-term durability enhancements for homes in Bridgeville, Delaware.",
                   "provider": {
                     "@type": "LocalBusiness",
-                    "name": "HomeMax Premier Era Innovations",
+                    "name": "HomeMax Remodeling Group",
                     "@id": "https://homemaxrg.com/#organization",
                   },
                   "areaServed": {

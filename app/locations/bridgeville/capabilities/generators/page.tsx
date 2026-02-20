@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: 'Home Generator Installation in Bridgeville, DE',
     description: 'Professional home generator installation and backup power systems for Bridgeville homes. Reliable standby generators installed by experts.',
     url: 'https://homemaxrg.com/locations/bridgeville/capabilities/generators',
-    siteName: 'HomeMax Premier Era Innovations',
+    siteName: 'HomeMax Remodeling Group',
     locale: 'en_US',
     type: 'website',
   },
@@ -640,7 +640,7 @@ export default function BridgevilleGeneratorsPage() {
                   "description": "Professional home generator installation services including whole-home standby generators, backup power systems, automatic transfer switches, generator maintenance, and emergency power solutions for residential homes in Bridgeville, Delaware.",
                   "provider": {
                     "@type": "LocalBusiness",
-                    "name": "HomeMax Premier Era Innovations",
+                    "name": "HomeMax Remodeling Group",
                     "@id": "https://homemaxrg.com/#organization",
                   },
                   "areaServed": {

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: 'Home Safety Improvement Services in Bridgeville, DE',
     description: 'Professional home safety improvement services for Bridgeville homes. Electrical safety upgrades, hazard prevention, structural improvements, and safety inspections.',
     url: 'https://homemaxrg.com/locations/bridgeville/capabilities/safety',
-    siteName: 'HomeMax Premier Era Innovations',
+    siteName: 'HomeMax Remodeling Group',
     locale: 'en_US',
     type: 'website',
   },
@@ -580,7 +580,7 @@ export default function BridgevilleSafetyPage() {
                   "description": "Professional home safety improvement services including electrical safety upgrades, hazard prevention, structural safety improvements, home safety inspections, and residential safety solutions for homes in Bridgeville, Delaware.",
                   "provider": {
                     "@type": "LocalBusiness",
-                    "name": "HomeMax Premier Era Innovations",
+                    "name": "HomeMax Remodeling Group",
                     "@id": "https://homemaxrg.com/#organization",
                   },
                   "areaServed": {

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: 'Home Improvement & Remodeling Services in Delaware',
     description: 'Full-service home improvement and renovation company serving Delaware homeowners with professional remodeling, electrical, energy efficiency, and restoration services.',
     url: 'https://homemaxrg.com/capabilities',
-    siteName: 'HomeMax Premier Era Innovations',
+    siteName: 'HomeMax Remodeling Group',
     locale: 'en_US',
     type: 'website',
   },
@@ -405,7 +405,7 @@ export default function CapabilitiesLayout() {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "ProfessionalService",
-              "name": "HomeMax Premier Era Innovations",
+              "name": "HomeMax Remodeling Group",
               "description": "Full-service home improvement and renovation company serving Delaware with professional remodeling, electrical, energy efficiency, and restoration services.",
               "url": "https://homemaxrg.com/capabilities",
               "areaServed": [

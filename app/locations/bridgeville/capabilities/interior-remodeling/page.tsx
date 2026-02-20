@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: 'Interior Remodeling Services in Bridgeville, DE',
     description: 'Professional interior remodeling services for Bridgeville homes. Kitchen remodeling, bathroom renovations, living room updates, and complete home interior improvements.',
     url: 'https://homemaxrg.com/locations/bridgeville/capabilities/interior-remodeling',
-    siteName: 'HomeMax Premier Era Innovations',
+    siteName: 'HomeMax Remodeling Group',
     locale: 'en_US',
     type: 'website',
   },
@@ -648,7 +648,7 @@ export default function BridgevilleInteriorRemodelingPage() {
                   "description": "Professional interior remodeling services including kitchen remodeling, bathroom renovations, living room updates, bedroom improvements, whole-home interior updates, and residential renovation services for homes in Bridgeville, Delaware.",
                   "provider": {
                     "@type": "LocalBusiness",
-                    "name": "HomeMax Premier Era Innovations",
+                    "name": "HomeMax Remodeling Group",
                     "@id": "https://homemaxrg.com/#organization",
                   },
                   "areaServed": {

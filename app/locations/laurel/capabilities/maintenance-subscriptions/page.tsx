@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://www.homemaxrg.com/locations/laurel/capabilities/maintenance-subscriptions',
-    siteName: 'HomeMax Premier Era Innovations',
+    siteName: 'HomeMax Remodeling Group',
   },
   twitter: {
     card: 'summary_large_image',
@@ -72,7 +72,7 @@ export default function LaurelMaintenanceSubscriptionsPage() {
         provider: {
           '@type': 'LocalBusiness',
           '@id': 'https://www.homemaxrg.com/#organization',
-          name: 'HomeMax Premier Era Innovations',
+          name: 'HomeMax Remodeling Group',
         },
         areaServed: {
           '@type': 'City',

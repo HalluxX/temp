@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: 'Energy Efficiency Upgrades in Bridgeville, DE',
     description: 'Professional energy efficiency upgrades for Bridgeville homes. Lower costs, improve comfort, and reduce energy waste.',
     url: 'https://homemaxrg.com/locations/bridgeville/capabilities/energy-efficiency',
-    siteName: 'HomeMax Premier Era Innovations',
+    siteName: 'HomeMax Remodeling Group',
     locale: 'en_US',
     type: 'website',
   },
@@ -631,7 +631,7 @@ export default function BridgevilleEnergyEfficiencyPage() {
                   "description": "Professional energy efficiency upgrades including home efficiency improvements, utility cost reduction, electrical efficiency enhancements, and comfort optimization for residential homes in Bridgeville, Delaware.",
                   "provider": {
                     "@type": "LocalBusiness",
-                    "name": "HomeMax Premier Era Innovations",
+                    "name": "HomeMax Remodeling Group",
                     "@id": "https://homemaxrg.com/#organization",
                   },
                   "areaServed": {

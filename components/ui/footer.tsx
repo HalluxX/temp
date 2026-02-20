@@ -13,13 +13,15 @@ export default function Footer() {
                 <li>8 The Green #23065</li>
                 <li>Dover, DE, 19901</li>
                 <li>
-                  <br />
-                  P: 302-404-4526
-                </li>
-                <li>
-                  HomeMax
-                  <br />
-                   info@homemaxrg.com
+                  Contact Us:
+                  <ul className="pl-2">
+                    <li>
+                      <span role="img" aria-label="Phone">📞</span> 302-404-4526
+                    </li>
+                    <li>
+                      <span role="img" aria-label="Email">✉️</span> info@homemaxrg.com
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </div>
@@ -113,10 +115,10 @@ export default function Footer() {
           <div className="copyright-container">
             <div className="copyright-links">
               <div className="copyright-link flex">
-                <Link href="https://www.facebook.com/profile.php?id=61552768226665&mibextid=ZbWKwL" className="mr-5">
+                <Link href="https://www.facebook.com/HomeMaxRemodelingGroup" className="mr-5">
                   <Icon icon="facebook"/>
                 </Link>
-                <Link href="https://www.instagram.com/HomeMax/">
+                <Link href="https://www.instagram.com/homemaxrg/">
                   <Icon icon="instagram" />
                 </Link>
               </div>
@@ -124,10 +126,10 @@ export default function Footer() {
           </div>
           <div className="md:hidden fixed bottom-0 left-0 w-full text-center">
             <a
-              href="tel:+3017606869"
+              href="tel:+3024044526"
               className="inline-flex items-center justify-center w-full text-white py-2 px-4 rounded-full bg-orange-700 transition-colors font-bold"
             >
-              <Icon icon="phone" /> Click To HomeMax
+              <Icon icon="phone" /> Click To Call HomeMax
             </a>
           </div>
         </div>

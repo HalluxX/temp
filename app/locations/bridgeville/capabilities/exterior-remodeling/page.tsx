@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: 'Exterior Remodeling Services in Bridgeville, DE',
     description: 'Professional exterior remodeling for Bridgeville homes. Improve curb appeal, durability, and weather resistance with expert solutions.',
     url: 'https://homemaxrg.com/locations/bridgeville/capabilities/exterior-remodeling',
-    siteName: 'HomeMax Premier Era Innovations',
+    siteName: 'HomeMax Remodeling Group',
     locale: 'en_US',
     type: 'website',
   },
@@ -652,7 +652,7 @@ export default function BridgevilleExteriorRemodelingPage() {
                   "description": "Professional exterior remodeling services including home exterior upgrades, curb appeal improvements, weather-resistant solutions, structural enhancements, and exterior renovations for residential homes in Bridgeville, Delaware.",
                   "provider": {
                     "@type": "LocalBusiness",
-                    "name": "HomeMax Premier Era Innovations",
+                    "name": "HomeMax Remodeling Group",
                     "@id": "https://homemaxrg.com/#organization",
                   },
                   "areaServed": {

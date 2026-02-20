@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: 'Electric Power Services in Bridgeville, DE',
     description: 'Professional electric power services, electrical panel upgrades, and safety improvements for Bridgeville, Delaware homes.',
     url: 'https://homemaxrg.com/locations/bridgeville/capabilities/electric-power',
-    siteName: 'HomeMax Premier Era Innovations',
+    siteName: 'HomeMax Remodeling Group',
     locale: 'en_US',
     type: 'website',
   },
@@ -545,7 +545,7 @@ export default function BridgevilleElectricPowerPage() {
                   "description": "Professional electric power services including electrical panel upgrades, whole-home electrical systems, power capacity improvements, and safety upgrades for residential homes in Bridgeville, Delaware.",
                   "provider": {
                     "@type": "LocalBusiness",
-                    "name": "HomeMax Premier Era Innovations",
+                    "name": "HomeMax Remodeling Group",
                     "@id": "https://homemaxrg.com/#organization",
                   },
                   "areaServed": {

@@ -53,7 +53,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   return {
-    title: `${capability.name} in ${location.name}, DE | HomeMax Premier Era Innovations`,
+    title: `${capability.name} in ${location.name}, DE | HomeMax Remodeling Group`,
     description: `Professional ${capability.name.toLowerCase()} in ${location.name}, Delaware. Serving ${location.county} with expert craftsmanship and reliable service.`,
     keywords: [
       `${capability.name.toLowerCase()} ${location.name} DE`,
@@ -65,7 +65,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: `${capability.name} in ${location.name}, DE`,
       description: `Professional ${capability.name.toLowerCase()} in ${location.name}, Delaware`,
       url: `https://homemaxrg.com/locations/${params.location}/capabilities/${params.capability}`,
-      siteName: 'HomeMax Premier Era Innovations',
+      siteName: 'HomeMax Remodeling Group',
       locale: 'en_US',
       type: 'website',
     },
@@ -139,7 +139,7 @@ export default function LocationCapabilityPage({ params }: PageProps) {
                   "description": `Professional ${capability.name.toLowerCase()} serving ${location.name}, Delaware and ${location.county}.`,
                   "provider": {
                     "@type": "LocalBusiness",
-                    "name": "HomeMax Premier Era Innovations",
+                    "name": "HomeMax Remodeling Group",
                     "@id": "https://homemaxrg.com/#organization",
                   },
                   "areaServed": {

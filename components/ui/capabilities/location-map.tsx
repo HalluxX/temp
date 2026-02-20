@@ -49,8 +49,8 @@ export default function LocationMap({ locationName, locationSlug, county, embedU
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title={`HomeMax Premier Era Innovations - ${locationName}, Delaware Location`}
-            aria-label={`Map showing HomeMax Premier Era Innovations service area in ${locationName}, Delaware`}
+            title={`HomeMax Remodeling Group - ${locationName}, Delaware Location`}
+            aria-label={`Map showing HomeMax Remodeling Group service area in ${locationName}, Delaware`}
           />
         </div>
         

@@ -23,7 +23,7 @@ export default function Hero() {
     <section className="capabilities-hero">
       <Image 
         src={imgCapabilitiesHero} 
-        alt='Capabilities - HomeMax Premier Era Innovations' 
+        alt='Capabilities - HomeMax Remodeling Group' 
         fill 
         style={{ objectFit: 'cover', zIndex: -1 }} 
         priority

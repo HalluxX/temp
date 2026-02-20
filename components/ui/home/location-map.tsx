@@ -23,8 +23,8 @@ export default function LocationMap() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="HomeMax Premier Era Innovations - 8 The Green, Dover, Delaware 19901"
-            aria-label="Map showing HomeMax Premier Era Innovations location at 8 The Green, Dover, Delaware"
+            title="HomeMax Remodeling Group - 8 The Green, Dover, Delaware 19901"
+            aria-label="Map showing HomeMax Remodeling Group location at 8 The Green, Dover, Delaware"
           />
         </div>
         
