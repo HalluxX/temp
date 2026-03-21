@@ -1,12 +1,10 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import Image from 'next/image'
 import Link from 'next/link';
 import { IMenu } from '@/types'
 import { Input, Icon, AnimatedButton } from '@/components/utils'
 import BannerLogoMax from '@/assets/images/banner_logo_max.svg'
-import whiteImgLogo from '@/assets/images/white-text-transparent-logo.png'
 
 const MENUS : IMenu[] = [
   {
@@ -137,11 +135,13 @@ export default function Header() {
 
           {/* Site branding */}
           <a href='/' className="header-icon flex items-center">
-            {summaryPage ? (
-              <Image src={whiteImgLogo} width={190} height={190} alt="Logo" style={{ height: 'auto' }} />
-            ) : (
-              <BannerLogoMax width={190} height={190} style={{ height: 'auto', maxWidth: 190 }} className="inline-block" aria-hidden="true" />
-            )}
+            <BannerLogoMax
+              width={190}
+              height={190}
+              style={{ height: 'auto', maxWidth: 190 }}
+              className={`inline-block ${summaryPage ? 'header-logo-summary' : ''}`}
+              aria-hidden="true"
+            />
           </a>
 
           {/* Menu Bar */}
