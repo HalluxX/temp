@@ -1,111 +1,173 @@
 'use client'
 
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { useState, FormEvent } from 'react'
 
-import { AnimatedButton, Input } from "@/components/utils"
-import sendEmail from "@/lib/sendEmail"
-import { useState, useEffect } from 'react'
+const inputClassName =
+  'w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent font-normal'
 
 export default function SubmitDialog() {
-  const [sending, setSending] = useState<boolean>(false);
-  const [name, setName] = useState<string>('');
-  const [email, setEmail] = useState<string>('');
-  const [company, setCompany] = useState<string>('');
-  const [phone, setPhone] = useState<string>('');
-  const [help, setHelp] = useState<string>('');
-  const [msg, setMsg] = useState<string>('');
+  const [sending, setSending] = useState(false)
+  const [submitted, setSubmitted] = useState(false)
+  const [error, setError] = useState(false)
 
-  const handleSubmit = async () => {
-    setSending(true);
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    setSending(true)
+    setError(false)
+
     try {
-      const req = await sendEmail(name, email, company, phone, help, msg);
-      if (req.status === 250) {
-        openSuccessToast();
-        setSending(false);
+      const formData = new FormData(e.currentTarget)
+      const response = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(formData as any).toString(),
+      })
+
+      if (!response.ok) {
+        throw new Error('Form submission failed')
       }
-    } catch (e) {
-      openFailToast();
-      setSending(false);
+
+      setSubmitted(true)
+    } catch {
+      setError(true)
+    } finally {
+      setSending(false)
     }
   }
 
-  const openSuccessToast = () => {
-    toast.success('Congrats! Your information has sent successfully!', {
-      position: "top-right",
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "light",
-    });
-  }
-
-  const openFailToast = () => {
-    toast.error('Something went wrong! Failed to send your request.', {
-      position: "top-right",
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "light",
-      });
+  if (submitted) {
+    return (
+      <div className="contact-submit p-8 text-black text-lg font-bold mx-auto w-full md:w-6/12">
+        <div className="rounded-lg border border-green-200 bg-green-50 p-8 text-center">
+          <h2 className="text-2xl font-bold text-green-800 mb-3">Thank you!</h2>
+          <p className="text-green-700 font-medium">
+            Your message was submitted successfully. We&apos;ll get back to you soon.
+          </p>
+        </div>
+      </div>
+    )
   }
 
   return (
     <div className="contact-submit p-8 text-black text-lg font-bold mx-auto w-full md:w-6/12">
-      <ToastContainer />
-      <div className="space-y-6">
+      <form
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        onSubmit={handleSubmit}
+        className="space-y-6"
+      >
+        <input type="hidden" name="form-name" value="contact" />
+        <p className="hidden" aria-hidden="true">
+          <label>
+            Don’t fill this out if you’re human:
+            <input name="bot-field" tabIndex={-1} autoComplete="off" />
+          </label>
+        </p>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
-            <div className="mb-2">Your Name *</div>
-            <Input variant="default" value={name} onChange={(e) => {setName(e.target.value)}} />
+            <label className="mb-2 block" htmlFor="contact-name">
+              Your Name *
+            </label>
+            <input
+              id="contact-name"
+              name="name"
+              type="text"
+              required
+              className={inputClassName}
+            />
           </div>
           <div></div>
         </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
-            <div className="mb-2">Email *</div>
-            <Input variant="default" value={email} onChange={(e) => {setEmail(e.target.value)}} />
+            <label className="mb-2 block" htmlFor="contact-email">
+              Email *
+            </label>
+            <input
+              id="contact-email"
+              name="email"
+              type="email"
+              required
+              className={inputClassName}
+            />
           </div>
           <div>
-            <div className="mb-2">Company *</div>
-            <Input variant="default" value={company} onChange={(e) => {setCompany(e.target.value)}} />
+            <label className="mb-2 block" htmlFor="contact-company">
+              Company *
+            </label>
+            <input
+              id="contact-company"
+              name="company"
+              type="text"
+              required
+              className={inputClassName}
+            />
           </div>
         </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
-            <div className="mb-2">What can we help you with?</div>
-            <Input variant="default" value={help} onChange={(e) => {setHelp(e.target.value)}} />
+            <label className="mb-2 block" htmlFor="contact-help">
+              What can we help you with?
+            </label>
+            <input
+              id="contact-help"
+              name="help"
+              type="text"
+              className={inputClassName}
+            />
           </div>
           <div>
-            <div className="mb-2">Phone *</div>
-            <Input variant="default" value={phone} onChange={(e) => {setPhone(e.target.value)}} />
+            <label className="mb-2 block" htmlFor="contact-phone">
+              Phone *
+            </label>
+            <input
+              id="contact-phone"
+              name="phone"
+              type="tel"
+              required
+              className={inputClassName}
+            />
           </div>
         </div>
+
         <div>
-          <div className="mb-2">MESSAGE</div>
-          <textarea 
-            className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent h-32 resize-vertical"
-            value={msg} 
-            onChange={(e) => {setMsg(e.target.value)}}
+          <label className="mb-2 block" htmlFor="contact-message">
+            MESSAGE
+          </label>
+          <textarea
+            id="contact-message"
+            name="message"
+            required
+            className={`${inputClassName} h-32 resize-vertical`}
             placeholder="Enter your message here..."
           />
         </div>
+
+        {error && (
+          <p className="text-red-600 font-medium">
+            Something went wrong. Please try again or email us directly.
+          </p>
+        )}
+
         <div className="pt-4">
-          { sending ? 
-            <div className="text-gray-600">Sending your request now ...</div> : 
-            <div onClick={handleSubmit}>
-              <AnimatedButton variant='transparent' icon='arrow-right' className='flex text-black text-left text-lg md:text-xl'>
-                SUBMIT
-              </AnimatedButton>
-            </div>}
+          {sending ? (
+            <div className="text-gray-600">Sending your request now ...</div>
+          ) : (
+            <button
+              type="submit"
+              className="flex items-center gap-3 text-black text-left text-lg md:text-xl font-bold hover:opacity-80 transition-opacity"
+            >
+              SUBMIT
+              <span aria-hidden="true">→</span>
+            </button>
+          )}
         </div>
-      </div>
+      </form>
     </div>
   )
-} 
+}
