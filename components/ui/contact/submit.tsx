@@ -17,7 +17,9 @@ export default function SubmitDialog() {
 
     try {
       const formData = new FormData(e.currentTarget)
-      const response = await fetch('/', {
+      // Post to the static HTML form page so Netlify Forms can handle it
+      // (POSTing to "/" hits Next.js and returns 405 on Netlify)
+      const response = await fetch('/__forms.html', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: new URLSearchParams(formData as any).toString(),
