@@ -12,7 +12,6 @@ export async function POST(req: any) {
       html: `
         <p><span style="font-weight: bold">Name</span>: ${body.name}</p>
         <p><span style="font-weight: bold">Email</span>: ${body.email}</p>
-        <p><span style="font-weight: bold">Company</span>: ${body.company}</p>
         <p><span style="font-weight: bold">Phone</span>: ${body.phone}</p>
         <p><span style="font-weight: bold">What can we help you with?</span></p>
         <p>${body.help}</p>
