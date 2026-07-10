@@ -63,6 +63,12 @@ export default function SubmitDialog() {
         className="space-y-5"
       >
         <input type="hidden" name="form-name" value="contact" />
+        <input
+          type="hidden"
+          name="subject"
+          data-remove-prefix
+          value="New contact form submission from homemaxrg.com"
+        />
         <p className="hidden" aria-hidden="true">
           <label>
             Don&apos;t fill this out if you&apos;re human:
