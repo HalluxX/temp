@@ -3,7 +3,9 @@
 import { useState, FormEvent } from 'react'
 
 const inputClassName =
-  'w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent font-normal'
+  'w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent font-normal text-base'
+
+const labelClassName = 'mb-2 block text-sm font-semibold text-gray-900'
 
 export default function SubmitDialog() {
   const [sending, setSending] = useState(false)
@@ -39,7 +41,7 @@ export default function SubmitDialog() {
 
   if (submitted) {
     return (
-      <div className="contact-submit p-8 text-black text-lg font-bold mx-auto w-full md:w-6/12">
+      <div className="contact-submit p-8 text-black mx-auto w-full max-w-2xl">
         <div className="rounded-lg border border-green-200 bg-green-50 p-8 text-center">
           <h2 className="text-2xl font-bold text-green-800 mb-3">Thank you!</h2>
           <p className="text-green-700 font-medium">
@@ -51,120 +53,114 @@ export default function SubmitDialog() {
   }
 
   return (
-    <div className="contact-submit p-8 text-black text-lg font-bold mx-auto w-full md:w-6/12">
+    <div className="contact-submit p-8 text-black mx-auto w-full max-w-2xl">
       <form
         name="contact"
         method="POST"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         onSubmit={handleSubmit}
-        className="space-y-6"
+        className="space-y-5"
       >
         <input type="hidden" name="form-name" value="contact" />
         <p className="hidden" aria-hidden="true">
           <label>
-            Don’t fill this out if you’re human:
+            Don&apos;t fill this out if you&apos;re human:
             <input name="bot-field" tabIndex={-1} autoComplete="off" />
           </label>
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {/* Contact info */}
+        <div className="grid grid-cols-1 gap-5">
           <div>
-            <label className="mb-2 block" htmlFor="contact-name">
-              Your Name *
+            <label className={labelClassName} htmlFor="contact-name">
+              Your name <span className="text-red-600">*</span>
             </label>
             <input
               id="contact-name"
               name="name"
               type="text"
               required
+              autoComplete="name"
               className={inputClassName}
             />
           </div>
-          <div></div>
-        </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
-            <label className="mb-2 block" htmlFor="contact-email">
-              Email *
+            <label className={labelClassName} htmlFor="contact-email">
+              Email <span className="text-red-600">*</span>
             </label>
             <input
               id="contact-email"
               name="email"
               type="email"
               required
-              className={inputClassName}
-            />
-          </div>
-          <div>
-            <label className="mb-2 block" htmlFor="contact-company">
-              Company *
-            </label>
-            <input
-              id="contact-company"
-              name="company"
-              type="text"
-              required
+              autoComplete="email"
               className={inputClassName}
             />
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {/* Phone + topic */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           <div>
-            <label className="mb-2 block" htmlFor="contact-help">
+            <label className={labelClassName} htmlFor="contact-help">
               What can we help you with?
             </label>
             <input
               id="contact-help"
               name="help"
               type="text"
+              placeholder="e.g. Roofing quote, electrical work"
               className={inputClassName}
             />
           </div>
+
           <div>
-            <label className="mb-2 block" htmlFor="contact-phone">
-              Phone *
+            <label className={labelClassName} htmlFor="contact-phone">
+              Phone <span className="text-red-600">*</span>
             </label>
             <input
               id="contact-phone"
               name="phone"
               type="tel"
               required
+              autoComplete="tel"
               className={inputClassName}
             />
           </div>
         </div>
 
+        {/* Message */}
         <div>
-          <label className="mb-2 block" htmlFor="contact-message">
-            MESSAGE
+          <label className={labelClassName} htmlFor="contact-message">
+            Message <span className="text-red-600">*</span>
           </label>
           <textarea
             id="contact-message"
             name="message"
             required
-            className={`${inputClassName} h-32 resize-vertical`}
-            placeholder="Enter your message here..."
+            rows={5}
+            className={`${inputClassName} resize-y min-h-[8rem]`}
+            placeholder="Tell us about your project or question..."
           />
         </div>
 
         {error && (
-          <p className="text-red-600 font-medium">
+          <p className="text-red-600 text-sm font-medium">
             Something went wrong. Please try again or email us directly.
           </p>
         )}
 
-        <div className="pt-4">
+        <div className="pt-2">
           {sending ? (
-            <div className="text-gray-600">Sending your request now ...</div>
+            <p className="text-gray-600 text-sm font-medium">Sending your request...</p>
           ) : (
             <button
               type="submit"
-              className="flex items-center gap-3 text-black text-left text-lg md:text-xl font-bold hover:opacity-80 transition-opacity"
+              className="flex items-center gap-3 text-black text-lg md:text-xl font-bold hover:opacity-80 transition-opacity"
             >
-              SUBMIT
+              Submit
               <span aria-hidden="true">→</span>
             </button>
           )}
